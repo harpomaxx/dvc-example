@@ -1,0 +1,17 @@
+select_initial:
+  features:
+  - Anim
+  - Standing
+  - Active
+  - Lying
+  - '%HeadDown'
+  - DFL1
+  - DFL2
+  - DFL3
+  - DFA12
+  - DFA123
+  - DBL1
+  - DBL2
+  - DBL3
+  - DBA12
+  - DBA123

@@ -1,0 +1,12 @@
+stages:
+  select_features_initial:
+    cmd: Rscript code/R/scripts/020_select_features_initial_cmd.R --input rawdata/preprocessed.tsv
+      --output data/initial_features/seba-caprino-preprocessed-initial-features.tsv 
+    deps:
+    - code/R/functions/select_features_initial.R
+    - code/R/scripts/020_select_features_initial_cmd.R
+    - rawdata/preprocessed.tsv
+    params:
+    - select_initial.features
+    outs:
+    - data/initial_features
